@@ -19,6 +19,16 @@ data/a_very_large_file.zip
 # /*.zip Matches .zip-files ONLY in the first directory (file.zip, but not files/file.zip)
 # files/*.zip matches all .zip-files inside the `files` directory
 
+# To be explicit about the content we DON'T want to push, we'll exlude the content of these directories
+data/*
+source_material/*
+output/*
+# `output` content should be generatable anyway. Whoever clones this repo will be able to generate all output files themselves
+# A .gitkeep file is used to prevent empty directories from being deleted by git
+!data/.gitkeep
+!source_material/.gitkeep
+!output/.gitkeep
+
 # Git is TEXT-based, but not all file formats that contain text is text. Binary file-formats should be ignored also:
 *.doc
 *.docx
