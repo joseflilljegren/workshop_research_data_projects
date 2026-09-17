@@ -1,0 +1,69 @@
+# Example .gitignore for a python project
+#
+# Files that you put here, will NOT be included when you commit your chenges
+
+# Exclude a single file:
+data/a_very_large_file.zip
+
+# Using patterns, we can exclude groups of files that we know we'd never want to commit:
+*.zip
+*.pyc
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.pdf
+# Note that:
+# *.zip matches all .zip-files everywhere
+# **/*.zip Explicitly matches all .zip-files in every sub-diretory
+# /*.zip Matches .zip-files ONLY in the first directory (file.zip, but not files/file.zip)
+# files/*.zip matches all .zip-files inside the `files` directory
+
+# Git is TEXT-based, but not all file formats that contain text is text. Binary file-formats should be ignored also:
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ods
+*.pages
+*.ppx
+
+# In your git-repository. You should keep .md for text, .csv for data and .tex (latex) for documents
+# Building tex-files, however, generates some nasty cache-files which we don't need to share with our colaborators.
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# If indeed, we do want some small images, we can reverse the ignore with !
+!images/a_small_icon.png
+
+# Python projects sometime leave cache files around too
+__pycache__/
+*.py[cod]
+*$py.class
+
+# These files are OS-specific. Macs, for example, keeps preferences on how windows are displayed in folders in a hidden file called .DS_Store
+.DS_Store
+**.exe
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE:s and Jupyter
+.ipynb_checkpoints/
+.vscode/
+.idea/
