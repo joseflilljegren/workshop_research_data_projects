@@ -144,3 +144,15 @@ In the workshop we'll make some config to the Claude on your system to try to sa
 #### 6. Stand by to be accesped as a collaborator to the workshop
 
 Once you're added to the workshop directory, you'll be able to make changes and push them to the repository. This we will explore together during the workshop.
+
+
+## Checklist:
+
+Have I:
+ - [ ] Installed git (`git -v`)
+ - [ ] Got a user on github for which I remember my email and username
+ - [ ] Pulled/cloned the workshop directory to my machine (maybe at ~/Documents/workshop_research_data_projects)
+ - [ ] Installed a coding editor / IDE like VS Code
+ - [ ] Installed `brew`
+ - [ ] Installed Claude Code (via Node)
+ - [ ] Gotten a Claude subscription so I can use `claude` in the terminal
