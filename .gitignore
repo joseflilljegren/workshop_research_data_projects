@@ -5,6 +5,10 @@
 # Exclude a single file:
 data/a_very_large_file.zip
 
+# Exclude the `.env`-file. Env-files are used to define the local environment and its credentials.
+# A .env-file can always be assumed to contain some sensetive information and it is good practice to make sure that .env is always gitignored
+.env
+
 # Using patterns, we can exclude groups of files that we know we'd never want to commit:
 *.zip
 *.pyc
@@ -72,8 +76,14 @@ __pycache__/
 venv/
 env/
 ENV/
+# Unconvensional naming:
+.my_venv
+my_venv
 
 # IDE:s and Jupyter
 .ipynb_checkpoints/
 .vscode/
 .idea/
+
+# Claude:
+.claude
