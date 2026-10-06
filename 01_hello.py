@@ -4,6 +4,7 @@
 def main():
     """Main."""
     print('The workshop')
+    print('The workshop is fun (almost)')
 
 
 def power(x):

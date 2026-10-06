@@ -6,6 +6,16 @@ The difference from a chat window is the whole point. A chat window gives you te
 
 For research work that makes it a capable but literal-minded collaborator: excellent at the mechanical parts of a data project, dependent on you for what the project is actually trying to find out.
 
+## Installation
+
+We'll install Claude code via `brew` like this:
+
+```bash
+brew install --cask claude-code
+```
+
+You then envoke it in the terminal with `claude` after **first making sure that you're in the right directory with your virtual environment activated**
+
 
 ## Claude in the terminal
 

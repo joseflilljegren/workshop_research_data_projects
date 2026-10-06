@@ -10,6 +10,9 @@ Unlike DropBox or other cloud services, with `git` you have to take actions your
 
 If it is your task to fix a specific feature, you can work on it until you're ready to commit it.
 
+> Quick [introduction video](https://www.youtube.com/watch?v=r8jQ9hVA2qs)
+> Full [one hour video](https://youtu.be/8JJ101D3knE?si=hgRdY3dKv3RHyrIZ)
+
 ### Some vocabulary:
  - **Commit**: A snapshot of the code at a specific point in time.
  - **Stage**: To mark a change as belonging in the next commit. Staged changes sit in an in-between area (the "staging area" or "index") where you assemble a commit before making it. This is what lets you commit three of the five files you touched.

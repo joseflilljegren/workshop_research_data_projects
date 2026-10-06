@@ -4,6 +4,8 @@ A simple markup language that allows you to format text. This document is writte
 
 The idea is that the file stays readable as plain text. You are not hiding formatting inside a binary document; you are writing characters that a human can read in the terminal and a machine can render as a web page, a PDF or a slide deck.
 
+> Quick [introduction video]( https://www.youtube.com/watch?v=LxeclcePg-c)
+
 ## Most basic synthax and principles:
 
 - **Bold** `**bold**`
