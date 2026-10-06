@@ -1,12 +1,12 @@
 # Example .gitignore for a python project
 #
-# Files that you put here, will NOT be included when you commit your chenges
+# Files that you put here, will NOT be included when you commit your changes
 
 # Exclude a single file:
 data/a_very_large_file.zip
 
 # Exclude the `.env`-file. Env-files are used to define the local environment and its credentials.
-# A .env-file can always be assumed to contain some sensetive information and it is good practice to make sure that .env is always gitignored
+# A .env-file can always be assumed to contain some sensitive information and it is good practice to make sure that .env is always gitignored
 .env
 
 # Using patterns, we can exclude groups of files that we know we'd never want to commit:
@@ -19,11 +19,11 @@ data/a_very_large_file.zip
 *.pdf
 # Note that:
 # *.zip matches all .zip-files everywhere
-# **/*.zip Explicitly matches all .zip-files in every sub-diretory
+# **/*.zip Explicitly matches all .zip-files in every sub-directory
 # /*.zip Matches .zip-files ONLY in the first directory (file.zip, but not files/file.zip)
 # files/*.zip matches all .zip-files inside the `files` directory
 
-# To be explicit about the content we DON'T want to push, we'll exlude the content of these directories
+# To be explicit about the content we DON'T want to push, we'll exclude the content of these directories
 data/*
 source_material/*
 output/*
@@ -33,7 +33,7 @@ output/*
 !source_material/.gitkeep
 !output/.gitkeep
 
-# Git is TEXT-based, but not all file formats that contain text is text. Binary file-formats should be ignored also:
+# Git is TEXT-based, but not all file formats that contain text are text. Binary file-formats should be ignored also:
 *.doc
 *.docx
 *.xls
@@ -43,7 +43,7 @@ output/*
 *.ppx
 
 # In your git-repository. You should keep .md for text, .csv for data and .tex (latex) for documents
-# Building tex-files, however, generates some nasty cache-files which we don't need to share with our colaborators.
+# Building tex-files, however, generates some nasty cache-files which we don't need to share with our collaborators.
 # LaTeX build artifacts
 *.aux
 *.log
@@ -76,7 +76,7 @@ __pycache__/
 venv/
 env/
 ENV/
-# Unconvensional naming:
+# Unconventional naming:
 .my_venv
 my_venv
 
